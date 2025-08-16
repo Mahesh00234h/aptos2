@@ -1,0 +1,15 @@
+[package]
+name = "project1"
+version = "1.0.0"
+authors = []
+
+[addresses]
+voting = "0xf3ffe99bbfaa4ae3d989bba199cebe7373d5159564dcbcaae5ee81ef3833b72e"
+escrow = "0xf3ffe99bbfaa4ae3d989bba199cebe7373d5159564dcbcaae5ee81ef3833b72e"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-addresses]
